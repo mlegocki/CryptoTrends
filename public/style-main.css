@@ -1,0 +1,17 @@
+
+#main-logo-container { 
+  width: 20em;
+  height: auto;
+}
+
+#main-logo {
+  width: 100%;
+  height: 100%;
+  margin-left: 1em;
+}
+
+#main-searchBar-container {
+  display: flex;
+  align-items: center;
+  width: 40em;
+}

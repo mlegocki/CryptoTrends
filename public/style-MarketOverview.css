@@ -1,0 +1,59 @@
+#market-overview-main-row-label-container {
+  display: flex;
+  align-items: center;
+}
+
+.market-overview-row-container {
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2em;
+  height: 2.5em;
+  border: solid rgb(240, 240, 240) 0.5px;
+}
+
+.market-overview-row-symbolImage-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 1em;
+  width: 45px;
+}
+
+.market-overview-row-symbolImage {
+  width: 100%;
+}
+
+.market-overview-row-symbol {
+  margin-left: 1.5em;
+  width: 75px;
+}
+
+.market-overview-row-name {
+  margin-left: 2em;
+  width: 275px;
+}
+
+.market-overview-row-price {
+  margin-left: 2em;
+  width: 175px;
+}
+
+.market-overview-row-priceChg {
+  margin-left: 2em;
+  width: 140px;
+}
+
+h5.market-overview-row-priceChg.pos a{
+  color: rgb(0, 150, 0);
+}
+
+h5.market-overview-row-priceChg.neg a{
+  color: red;
+}
+
+.market-overview-row-marketCap {
+  margin-left: 2em;  
+  width: 250px;
+}
+

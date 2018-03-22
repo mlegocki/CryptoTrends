@@ -1,0 +1,73 @@
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.chartjs-size-monitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+.chart-button-dataType-container {
+  margin-left: 4em;
+}
+.chart-button-timeFrame-container {
+  margin-right: 4em;
+}
+
+.button-title-timeFrame, .button-title-dataType {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+}
+
+.twitterHandle-form-container {
+  display: flex;
+}
+
+#twitterHandle-reset {
+  margin-left: 1em;
+}
+
+.chart-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chart-title {
+  font-size: 1.5em;
+  margin: 0.2em;
+}
+
+.chart-graph-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1001px;
+}
+
+canvas.chartjs-render-monitor {
+  position: absolute;
+}
+
+
+#chart-tweet-graph, #chart-gt-graph {
+  position: absolute;
+  top: 32px;
+  left: 58px;
+  z-index: 0;
+}

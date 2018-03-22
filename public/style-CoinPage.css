@@ -1,0 +1,85 @@
+.coin-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.coin-page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.coin-page-info-container {
+  display: flex;
+  width: 50%;
+}
+
+.coin-page-title-symbolImage {
+  align-self: center;
+  width: 25%;
+  margin-right: 1em;
+}
+
+.coin-page-title-name {
+  font-size: 4.5em;
+  margin: 0;
+}
+
+.coin-page-title-symbol {
+  align-self: flex-start;
+  margin: 0;
+  font-size: 2.25em;
+}
+
+.coin-page-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-page-info-label-container, .coin-page-info-number-container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.coin-page-info-label-container {
+  margin-left: 4em;
+}
+
+.coin-page-info {
+  display: flex;
+  width: 100%;
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.coin-page-info.pos {
+  color: rgb(0, 150, 0);
+}
+
+.coin-page-info.neg {
+  color: red
+}
+
+.coin-page-twitter, .coin-page-graphs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.coin-page-graph-container {
+  width: 75%;
+}
+
+.coin-page-twitter{
+  justify-content: center;
+  text-align: center;
+}

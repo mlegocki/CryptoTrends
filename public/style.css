@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/************************/
+/* STYLING LINKS */
+/************************/
+
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 60, 255);
+}
+
+form{
+  display: flex;
+}
