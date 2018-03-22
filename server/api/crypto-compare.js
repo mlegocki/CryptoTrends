@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { CoinLists, CoinHists } = require('../db/models');
 
+// get top 100 coins
+
 router.get('/coin-list', async (req, res, next) => {
   var coinList = await CoinLists.findAll({
     where: {

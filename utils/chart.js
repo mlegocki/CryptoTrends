@@ -1,8 +1,6 @@
 import moment from 'moment';
 
-/*
- ****************************** COIN CHARTS *******************************
-*/
+// coin chart creator
 
 const coinLabelMaker = function (date, timeFrame) {
   let array = [];
@@ -52,11 +50,7 @@ export const graphCoinOptions = {
   },
 };
 
-/*
- ****************************** GOOGLE TRENDS CHARTS ****************************
-*/
-
-
+// Google Trends chart creator
 
 const GTLabelMaker = function (date, timeFrame) {
   let array = [];
@@ -121,10 +115,7 @@ export const graphGTOptions = {
   }
 };
 
-
-/*
- ****************************** TWITTER TRENDS CHARTS ****************************
-*/
+// Twitter chart creator
 
 const tweetsLabelMaker = function (date, timeFrame) {
   let array = [];

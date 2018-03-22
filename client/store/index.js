@@ -9,6 +9,7 @@ const reducer = combineReducers({
   coinsList,
   data,
 })
+// initiate devtools for Chrome Developer Tools
 const middleware = composeWithDevTools(applyMiddleware(
   thunkMiddleware,
   createLogger({ collapsed: true })

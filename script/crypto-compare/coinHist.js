@@ -1,6 +1,8 @@
 const { CoinLists, CoinHists } = require('../../server/db/models');
 const rp = require('request-promise');
 
+// update individual coin data
+
 const updateCoinHist = async function () {
     let coinList = await CoinLists.findAll({
         where: {

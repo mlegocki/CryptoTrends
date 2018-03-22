@@ -2,6 +2,7 @@ const rp = require('request-promise');
 const db = require('../server/db')
 const { updateCoinList, updateCoinHist } = require('./crypto-compare');
 
+// seeding loop to update coin data once deployed
 const loop = async function () {
   if (isIntervalInProgress)
     return false;

@@ -12,7 +12,7 @@ const twitSecret = {
 
 const T = new Twit(twitSecret);
 
-// USER TIMELINE TWEETS
+// get user timeline tweets
 
 router.get('/', (req, res, next) => {
   var twitterHandle = req.query.twitterHandle;

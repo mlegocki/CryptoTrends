@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-// store => coinList
+// store => coinList data cleaner
 export const numberWithCommas = (x) => {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -20,7 +20,7 @@ export const dataCoinListCleaner = (data) => {
   return cleanData;
 }
 
-// store => coinData 
+// store => coinData data cleaner
 export const dataCoinCleaner = (dataSet, coinSymbol) => {
   let cleanData = dataSet.filter(row =>
     coinSymbol === row.symbol
@@ -28,7 +28,7 @@ export const dataCoinCleaner = (dataSet, coinSymbol) => {
   return cleanData;
 };
 
-// store => googleTrends
+// store => googleTrends data cleaner
 export const dataGTCleaner = (dataSet) => {
   let cleanData = dataSet.default.timelineData.map(row => {
     let newRow = {
@@ -41,7 +41,7 @@ export const dataGTCleaner = (dataSet) => {
   return cleanData;
 };
 
-// store => tweets
+// store => tweets data cleaner
 export const dataTweetCleaner = (tweets) => {
   let date = new Date();
   date = date.getTime();

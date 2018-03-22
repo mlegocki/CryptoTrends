@@ -1,6 +1,8 @@
 const { CoinLists } = require('../../server/db/models');
 const rp = require('request-promise');
 
+// update coin data list
+
 const updateCoinList = async function () {
   let socialData = await rp({
     uri: `https://min-api.cryptocompare.com/data/all/coinlist`

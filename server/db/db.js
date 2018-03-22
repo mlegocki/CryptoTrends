@@ -1,5 +1,8 @@
 const Sequelize = require('sequelize')
 const db = new Sequelize(
+
+  // custom pool settings for continual updates and not timing out
+  
   process.env.DATABASE_URL || 'postgres://localhost:5432/cryptoTrends', {
     logging: false,
     pool: {

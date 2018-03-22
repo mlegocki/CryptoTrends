@@ -8,7 +8,7 @@ const defaultState = {
   timeFrame: 'day'
 }
 
-// COIN DATA
+// individual coin data
 
 const GET_COIN_DATA = 'GET_COIN_DATA';
 
@@ -22,7 +22,7 @@ export const updateCoinData = (coinSymbol) =>
       .catch(console.error)
   }
   
-// GT DATA
+// google trends Data
 
 const GET_TRENDS = 'GET_TRENDS';
 
@@ -37,7 +37,7 @@ export const updateGTData = (searchTerm, timeFrame) =>
   }
 
 
-// USER DATA
+// twitter Data
 
 const GET_USER_TWEET = 'GET_USER_TWEET';
 const RESET_USER_TWEET = 'RESET_USER_TWEET';
@@ -54,7 +54,7 @@ export const updateUserTweet = (twitterHandle) =>
 
 export const resetUserTweet = () => ({ type: RESET_USER_TWEET });
 
-// TIMEFRAME
+// current timeframe
 
 const SET_TIMEFRAME = 'SET_TIMEFRAME';
 
