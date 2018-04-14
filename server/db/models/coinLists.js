@@ -16,26 +16,23 @@ const CoinLists = db.define('coinLists', {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    validate: {
-      isAlphanumeric: true
-    }
   },
   price: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   priceChg: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   marketCap: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   cmcRank: {

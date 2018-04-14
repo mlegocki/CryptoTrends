@@ -9,27 +9,27 @@ const CoinHists = db.define('coinHists', {
     }
   },
   priceClose: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   priceOpen: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   volumeFrom: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   volumeTo: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   },
   time: {
@@ -39,9 +39,9 @@ const CoinHists = db.define('coinHists', {
     }
   },
   priceChg: {
-    type: Sequelize.DECIMAL,
+    type: Sequelize.FLOAT,
     validate: {
-      isNumeric: true
+      isFloat: true
     }
   }
 });
